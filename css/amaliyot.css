@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.continer{
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  background-color: blue;
+
+}
+.content{
+  width: 500px;
+  height: 100%;
+  background-color: red;
+}
+.box{
+  background-image: url(https://www.qthotels.com/sydney-cbd/wp-content/uploads/sites/91/2020/06/Barber-Shop-Haircut-scaled.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 700px;
+  width: 100%;
+  height: 60%;
+  background-color: cadetblue;
+  flex: 3;
+}
+.box2{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  background-color: chartreuse;
+  overflow: hidden;
+}
+.imgbox{
+  overflow: hidden;
+  background-image: url(https://static.wixstatic.com/media/fbfeb4_f44eecef8c4349dd9e0fe3470c1aac98.jpg/v1/crop/x_348,y_242,w_3007,h_3750/fill/w_640,h_738,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Macleod_Craig%201-123.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 50%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.imgbox:hover{
+  transform: scale(1.2);
+}
+
+.box-title{
+  padding: 30px;
+  width: 50%;
+  height: 100%;
+  background-color: #b8b8b8;
+}
+
+.box-subtitle{
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.title-desc{
+  font-size: 15px;
+  font-family: sans-serif;
+}
